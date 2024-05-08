@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style> 
+        .almarai-light {
+            font-family: "Almarai", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+          }
+          
+          .almarai-regular {
+            font-family: "Almarai", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+          }
+          
+          .almarai-bold {
+            font-family: "Almarai", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+          }
+          
+          .almarai-extrabold {
+            font-family: "Almarai", sans-serif;
+            font-weight: 800;
+            font-style: normal;
+          }
+        body{
+            background-color: #fcf9f5;
+        }
+        .baar{
+            font-size:36px; 
+            
+        }
+        img{
+            width: 150px;
+            padding-left: 20%;
+        }
+        .container{
+            margin-top: 1%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            font-family: "Almarai", sans-serif;
+            font-weight: 600;
+            font-size: 12px;  
+            color:#4B392B; 
+        }
+        
+        .wel{
+            font-family: "Almarai", sans-serif;
+            color:#4B392B;
+            margin-left: 21%; 
+            
+        }
+        .dialog-box {
+            justify-content: center;
+            margin-top: 5%;
+            margin-left: 25%;
+            position: relative;
+            width: 852px;
+            height: 348px;
+            font-family: "Almarai", sans-serif;
+            color:#4B392B;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 73px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          }
+          
+          .dialog-box p {
+            margin-bottom: 10px;
+          }
+          
+          .next-btn {
+            margin-top: 60px;
+            background-color: #4B392B;
+            font-size: 30px;
+            font-weight: 600;
+            color: #fff;
+            padding: 22px 90px;
+            border: none;
+            border-radius: 41px;
+            cursor: pointer;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+            
+          }
+          
+         
+          .input{
+            width: 515px; 
+            height: 54px; 
+            margin-top: 60px; 
+            text-align:center;
+            background-color: #E3E3E3;
+            font-size: 20px;
+            border: none;
+            border-radius: 20px;
+          }
+        
+          .con{
+            color: #4B392B;
+            font-family: "Almarai", sans-serif;
+            text-align: center;
+            font-size: 12px;
+          }
+          /* Tablet */
+@media (max-width: 768px) {
+    .dialog-box {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      font-size: 24px;
+    }
+  
+    .next-btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+    }
+  
+    .input {
+      width: 100%;
+      height: 40px;
+    }
+  }
+  
+  /* Mobile */
+  @media (max-width: 480px) {
+    .dialog-box {
+      justify-content: center;
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      font-size: 24px;
+    }
+  
+    .next-btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+    }
+  
+    .input {
+      width: 100%;
+      height: 40px;
+    }
+  }
+  /* Desktop */
+@media (min-width: 769px) {
+    .dialog-box {
+      width: 852px;
+      height: 348px;
+      padding: 20px;
+    }
+  
+    .next-btn {
+      margin-top: 60px;
+      padding: 22px 90px;
+    }
+  
+    .input {
+      width: 515px;
+      height: 54px;
+    }
+  }
+    </style>
+</head>
+<body>
+   <a class="ba-ar" href="index.html"> <i class="fa fa-long-arrow-left" style="color: #4B392B ;font-size:50px; padding-top:60px; padding-left: 10%"></i> </a>
+   <a class="ba-ar" href="index.html"> <i class="fa fa-close" style="color: #4B392B ;font-size:50px; padding-top:60px; padding-left: 75%"></i> </a> 
+   <br>
+   <div class="container">
+       <img src="ARMS_Logo.png">
+       <h1 style="margin-left: 20px;">Animal Rescue Management System</h1>
+   </div>
+   <div class="wel">
+       <p style="line-height: 5px;">
+           <h1 style="font-weight: 700; font-size: 55px; line-height: 5px;">Welcome!</h1>
+           <h5 style="font-weight: 300; font-size: 16px; line-height: 1;">Welcome to Animal Rescue Management System!</h5>
+       </p>
+   </div> 
+
+   <div class="dialog-box">
+    <p style="font-weight: 700; font-size: 30px; line-height: 5px;">Start with your cell phone number</p>
+   <p> <input class = "input" type = "text" style="" placeholder = "Example: +91 89205 76770"> </p>
+    <a href="reportanimal.html"> <button  class="next-btn">NEXT</button> </a> 
+  </div>
+  <div class="con">
+    <p> By clicking next, you consent to recieve communiations via email or SMS from us. </p>
+  </div>
+    <script></script>
+</body>
+</html>
